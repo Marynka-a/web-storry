@@ -11,6 +11,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f0f0f0;
+  flex-direction: column; /* Додаємо вертикальне вирівнювання */
 }
 
 .calculator {
@@ -55,4 +56,11 @@ body {
 
 button:active {
   background-color: #d0d0d0;
+}
+
+/* Стилі для footer */
+footer {
+  margin-top: 20px; /* Відступ між калькулятором і авторським правом */
+  font-size: 0.9em;
+  color: #777;
 }
